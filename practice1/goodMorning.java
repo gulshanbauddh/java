@@ -1,5 +1,6 @@
-import java.util.Scanner;
+package practice1;
 
+import java.util.Scanner;
 public class goodMorning {
   public static void main(String[] args) {
     String str;
