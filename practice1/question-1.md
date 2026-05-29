@@ -1,5 +1,5 @@
 ## 1. AddTwoNumbers.java
-
+### Q-1. Add tow floation point number-
 ```java
 import java.util.Scanner; // Import Scanner class
 
@@ -32,7 +32,7 @@ public class AddTwoNumbers {
 ---
 
 ## 2. AllDataTypesExample.java
-
+### Q2- Display All Data Type-
 ```java
 // AllDataTypes Example
 public class AllDataTypesExample {
@@ -76,7 +76,7 @@ public class AllDataTypesExample {
 ---
 
 ## 3. ArithmeticOperators.java
-
+### Q3- Arithmatic operators- 
 ```java
 // Arithmetic Operators
 public class ArithmeticOperators {
@@ -96,7 +96,7 @@ public class ArithmeticOperators {
 ---
 
 ## 4. ArithmeticOperations.java
-
+### 4. Arithmetic Operation using input- 
 ```java
 //Arithmetic Operations
 import java.util.Scanner;
@@ -233,7 +233,7 @@ class Employee {
     // Method to display employee details
     public void displayDetails() {
         System.out.println("Employee Details:");
-        System.out.println("Name: " + name);
+        System.out.println("N[EmployeeDetails.java](EmployeeDetails.java)ame: " + name);
         System.out.println("ID: " + id);
         System.out.println("Department: " + department);
         System.out.println("Salary: $" + salary);
