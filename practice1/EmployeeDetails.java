@@ -1,36 +1,28 @@
 package practice1;
-
-class Employee {
-  private String name;
+class Employee{
   private int id;
-  private String department;
-  private double salary;
-
-  // Constructor
-  public Employee (String name, int id, String department, double salary) {
-    this.name = name;
+  private int salary;
+  private String name;
+  private String address;
+  public Employee(int id, int salary, String name, String address) {
     this.id = id;
-    this.department = department;
     this.salary = salary;
+    this.name = name;
+    this.address = address;
   }
-
-  // Method to display employee details
-  public void displayDetails() {
-    System.out.println("Employee Details:");
-    System.out.println("N[EmployeeDetails.java](EmployeeDetails.java)ame: " + name);
-    System.out.println("ID: " + id);
-    System.out.println("Department: " + department);
-    System.out.println("Salary: $" + salary);
+  public void EmpDisplay(){
+    System.out.println("1. Employee Display: ");
+    System.out.println("2. Employee ID: "+id);
+    System.out.println("3. Employee Salary: "+salary);
+    System.out.println("4. Employee Name: "+name);
+    System.out.println("5. Employee Address: "+address);
   }
 }
 
-public class EmployeeDetails {
+public class EmployeeDetails  {
   public static void main(String[] args) {
-    // Creating an Employee object
-    Employee emp1 = new Employee ("Sreenath", 101, "IT", 75000);
-
-    // Displaying the employee details
-    emp1.displayDetails();
+    Employee EmpGulshan=new Employee(101,48000,"Gulshan", "Siddharthnagar UP");
+    EmpGulshan.EmpDisplay();
+    System.out.println("Gulshan Bauddh");
   }
 }
-
