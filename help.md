@@ -50,3 +50,33 @@ git config --global core.autocrlf true
 ``` bash
 git config --global core.autocrlf input
 ```
+# Frist Push Using Terminal
+``` bash
+PS D:\java> git status
+```
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+(use "git add <file>..." to update what will be committed)
+(use "git restore <file>..." to discard changes in working directory)
+modified:   practice1/FrequencyCount.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+``` bash
+PS D:\java> git add .
+PS D:\java> git commit -m "frist using Terminall"
+```
+[main 87ad7d5] frist using Terminall
+1 file changed, 1 insertion(+), 1 deletion(-)
+PS D:\java> git push origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 414 bytes | 414.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/gulshanbauddh/java.git
+cb8e23b..87ad7d5  main -> main
+PS D:\java> 
