@@ -10,7 +10,7 @@ public class FrequencyCount {
     limit = sc.nextInt();
     int[] arr = new int[limit];
     for (int i = 0; i < arr.length; i++) {
-      System.out.printf("Enter (%d+1) th number %d index element: ", i,i);
+      System.out.printf("Enter %d\u1D57\u02B0 number at %d index element: ", (i+1),i);
       arr[i] = sc.nextInt();
     }
     System.out.print("Enter Search Key: ");
