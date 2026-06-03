@@ -26,7 +26,7 @@ public class FrequencyCount {
           check++;
         }
       }
-      System.out.printf("Frequency of %d is %d",num1, check);
+      System.out.printf("\nFrequency of %d is %d",num1, check);
     }
     System.out.println();
   }
