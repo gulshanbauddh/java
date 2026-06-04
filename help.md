@@ -69,7 +69,9 @@ PS D:\java> git commit -m "frist using Terminall"
 ```
 [main 87ad7d5] frist using Terminall
 1 file changed, 1 insertion(+), 1 deletion(-)
+``` bash
 PS D:\java> git push origin main
+```
 Enumerating objects: 7, done.
 Counting objects: 100% (7/7), done.
 Delta compression using up to 4 threads
