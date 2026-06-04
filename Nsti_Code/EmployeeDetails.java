@@ -1,4 +1,4 @@
-package practice1;
+package Nsti_Code;
 class Employee{
   private int id;
   private int salary;

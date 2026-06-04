@@ -1,4 +1,4 @@
-package practice1;
+package Nsti_Code;
 import java.util.Scanner;
 
 public class SumTheeNumters {
