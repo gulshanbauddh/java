@@ -1,7 +1,7 @@
 package practice1;
 import java.util.Scanner;
-public class patern1 {
-  public static void patern(int num){
+public class pattern1 {
+  public static void pattern(int num){
     for (int i = num; i >= 1; i--){
       for ( int j = i; j <= num; j++){
         System.out.print("* ");
@@ -13,6 +13,6 @@ public class patern1 {
     Scanner sc = new Scanner(System.in);
     System.out.print("Enter the number: " );
     int num = sc.nextInt();
-    patern(num);
+    pattern(num);
   }
 }
