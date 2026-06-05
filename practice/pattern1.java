@@ -1,4 +1,4 @@
-package practice1;
+package practice;
 import java.util.Scanner;
 public class pattern1 {
   public static void pattern(int num){

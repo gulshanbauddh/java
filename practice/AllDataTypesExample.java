@@ -1,4 +1,4 @@
-package practice1;
+package practice;
 
 public class AllDataTypesExample {
   public static void main(String[] args) {

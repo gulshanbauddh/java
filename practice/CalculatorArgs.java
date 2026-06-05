@@ -1,4 +1,4 @@
-package practice1;
+package practice;
 
 public class CalculatorArgs {
   public static void main(String[] args) {

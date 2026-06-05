@@ -1,4 +1,4 @@
-package practice1;
+package practice;
 
 public class helloArgs {
   public static void main(String[] args) {

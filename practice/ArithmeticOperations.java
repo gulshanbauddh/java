@@ -1,4 +1,4 @@
-package practice1;
+package practice;
 
 //Arithmetic Operations
 import java.util.Scanner;

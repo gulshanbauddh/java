@@ -1,4 +1,4 @@
-package practice1;
+package practice;
 
 abstract class Mobile {
 

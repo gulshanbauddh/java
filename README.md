@@ -33,7 +33,7 @@ git clone [https://github.com/gulshanbauddh/java.git](https://github.com/gulshan
 ```
 #### 2. Navigate to the practice directory:
 ``` bash
-cd java/practice1
+cd java/practice
 ```
 ### 3. Compile any Java file:
 
