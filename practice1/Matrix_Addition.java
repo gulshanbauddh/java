@@ -1,4 +1,4 @@
-package Nsti_Code;
+package practice1;
 
 import java.util.Scanner;
 
@@ -13,6 +13,9 @@ class Matrix {
     this.matA = new int[m][n];
     this.matB = new int[m][n];
     this.matC = new int[m][n];
+    inputMat(m, n, 'A');
+    addMat(m, n);
+    displayMat(m, n, 'A');
   }
 
   // Input Method
@@ -43,30 +46,20 @@ class Matrix {
   }
 
   // Display Method
-  public void displayMat(int m, int n) {
-      System.out.println("\nMatrix A:");
+  public void displayMat(int m, int n, int name) {
+    for (int mat = 1; mat <= 3; mat++) {
+      System.out.printf("\nMatrix %c:\n", name++);
       for (int i = 0; i < m; i++) {
         for (int j = 0; j < n; j++) {
-          System.out.printf("%-5d", this.matA[i][j]);
-        }
-        System.out.println();
-      }
-      System.out.println("\nMatrix B:");
-      for (int i = 0; i < m; i++) {
-        for (int j = 0; j < n; j++) {
-          System.out.printf("%-5d", this.matB[i][j]);
-        }
-        System.out.println();
-      }
-      System.out.println("\nMatrix C=A+B");
-      for (int i = 0; i < m; i++) {
-        for (int j = 0; j < n; j++) {
-          System.out.printf("%-5d", this.matC[i][j]);
+          if (mat == 1) System.out.printf("%-5d", this.matA[i][j]);
+          else if (mat == 2) System.out.printf("%-5d", this.matB[i][j]);
+          else System.out.printf("%-5d", this.matC[i][j]);
         }
         System.out.println();
       }
     }
   }
+}
 
 // This is main Class.
 public class Matrix_Addition {
@@ -84,9 +77,9 @@ public class Matrix_Addition {
     if ((m == p && n == q)) {
       System.out.println("Matrix Addition possible.");
       Matrix matrix = new Matrix(n, m);
-      matrix.inputMat(m, n, 'A');
-      matrix.addMat(m, n);
-      matrix.displayMat(m, n);
+      //matrix.inputMat(m, n, 'A');
+      //matrix.addMat(m, n);
+      //matrix.displayMat(m, n, 'A');
     } else {
       System.out.print("Matrix Addition not possible.");
     }
