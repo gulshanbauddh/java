@@ -1,7 +1,7 @@
 package Nsti_Code;
 import java.util.Scanner;
 
-public class SumTheeNumters {
+public class SumTheeNumbers {
   public static void main(String[] args) {
     int a, b, c, d;
     Scanner s = new Scanner(System.in);

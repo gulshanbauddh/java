@@ -23,6 +23,5 @@ public class EmployeeDetails  {
   public static void main(String[] args) {
     Employee EmpGulshan=new Employee(101,48000,"Gulshan", "Siddharthnagar UP");
     EmpGulshan.EmpDisplay();
-    System.out.println("Gulshan Bauddh");
   }
 }

@@ -12,7 +12,6 @@ class Car extends Vehicle {
 
 class Bike extends Vehicle {
   String brand = "Honda";
-
   void start() {
     String Start = "Self Start";
   }
