@@ -233,7 +233,7 @@ class Employee {
     // Method to display employee details
     public void displayDetails() {
         System.out.println("Employee Details:");
-        System.out.println("N[EmployeeDetails.java](EmployeeDetails.java)ame: " + name);
+        System.out.println("N[P_12_EmployeeDetails.java](P_12_EmployeeDetails.java)ame: " + name);
         System.out.println("ID: " + id);
         System.out.println("Department: " + department);
         System.out.println("Salary: $" + salary);

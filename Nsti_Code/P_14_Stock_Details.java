@@ -2,12 +2,12 @@ package Nsti_Code;
 
 import java.util.Scanner;
 
-class Product1 {
+class Product {
   int p_code, p_qty;
   String p_name;
   double u_price, price, gst, Total_price;
 
-  public Product1(int c, String n, int q, double p) {
+  public Product(int c, String n, int q, double p) {
     this.p_code = c;
     this.p_name = n;
     this.p_qty = q;
@@ -22,17 +22,17 @@ class Product1 {
   }
 
   public void displayDetailsRowWise() {
-    System.out.printf("%-15d %-20s %-10d %-10.2f %-10.2f %-10.2f %-10.2f \n",
+    System.out.printf("%-15d %-20s %-10d %-15.2f %-12.2f %-13.2f %-10.2f \n",
         p_code, p_name, p_qty, u_price, price, gst, Total_price);
   }
 }
 
-public class p_11_Product_Details {
+public class P_14_Stock_Details {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     System.out.print("Enter the number of products : ");
     int N = sc.nextInt();
-    Product1[] products = new Product1[N];
+    Product[] products = new Product[N];
 
     for (int i = 0; i < products.length; i++) {
       System.out.println("Enter Details of Product " + (i + 1));
@@ -40,19 +40,19 @@ public class p_11_Product_Details {
       int code = sc.nextInt();
       System.out.print("Enter product Name : ");
       String name = sc.next();
-      System.out.print("Enter product Qty : ");
+      System.out.print("Enter p roduct Qty : ");
       int qty = sc.nextInt();
       System.out.print("Enter Unit Price : ");
       double price = sc.nextDouble();
 
-      products[i] = new Product1(code, name, qty, price);
+      products[i] = new Product(code, name, qty, price);
       System.out.println();
     }
 
     System.out.println();
-    System.out.println("                     Product Details");
-    System.out.println("                     ----------------");
-    System.out.println("Product Code Product Name product Qty  Unit Price  Price      GST(18%)   Total Price");
+    System.out.println("                                      Product Details");
+    System.out.println("                                     -------------------");
+    System.out.println("Product Code    Product Name    product Qty     Unit Price      Price       GST(18%)      Total Price");
 
     for (int i = 0; i < products.length; i++) {
       products[i].displayDetailsRowWise();
