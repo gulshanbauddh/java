@@ -2,7 +2,7 @@ package Nsti_Code;
 
 import java.util.Scanner;
 
-public class displayEachDigit {
+public class P_01_displayEachDigit {
   public static void main(String[] args){
     String number;
     String[] word= {"Zero","One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten"};

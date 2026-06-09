@@ -3,7 +3,7 @@ package Nsti_Code;
 import java.util.Scanner;
 
 // This is main Class.
-public class Symmetric_Matrix {
+public class P_07_Symmetric_Matrix {
   // Input Method
   public static void inputMat(int m, int[][] mat) {
     Scanner sc=new Scanner(System.in);

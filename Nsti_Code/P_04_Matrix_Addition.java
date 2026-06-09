@@ -69,7 +69,7 @@ class Matrix {
   }
 
 // This is main Class.
-public class Matrix_Addition {
+public class P_04_Matrix_Addition {
   public static void main(String[] args) {
     int m, n, p, q;
     Scanner sc = new Scanner(System.in);

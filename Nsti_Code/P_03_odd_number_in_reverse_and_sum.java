@@ -2,7 +2,7 @@ package Nsti_Code;
 
 import java.util.Scanner;
 
-public class odd_number_in_reverse_and_sum {
+public class P_03_odd_number_in_reverse_and_sum {
   public static void main(String[] args){
     int num, sum=0;
     Scanner sc= new Scanner(System.in);

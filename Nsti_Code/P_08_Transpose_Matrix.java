@@ -1,8 +1,9 @@
 package Nsti_Code;
 
 import java.util.Scanner;
+
 // This is main Class.
-public class Upper_Triangular_Matrix {
+public class P_08_Transpose_Matrix {
   // Input Method
   public static void inputMat(int m, int n, int[][] matA) {
     Scanner sc=new Scanner(System.in);
@@ -16,10 +17,9 @@ public class Upper_Triangular_Matrix {
   }
 
   // Transpose Method
-  public static void upperTri(int m, int n,int[][]matA, int[][] upper) {
+  public static void transpose(int m, int n,int[][]matA, int[][] trans) {
     for (int i = 0; i < m; i++) {
-      for (int j = 0; j < n; j++) if (i<j ||i==j) upper[i][j] = matA[i][j];
-      else upper[i][j] =0;
+      for (int j = 0; j < n; j++) trans[j][i] = matA[i][j];
     }
   }
   // Display Method
@@ -31,9 +31,9 @@ public class Upper_Triangular_Matrix {
       }
       System.out.println();
     }
-    System.out.println("\nUpper Triangular Matrix:");
-    for (int i = 0; i < m; i++) {
-      for (int j = 0; j < n; j++) {
+    System.out.println("\nTranspose Matrix is:");
+    for (int i = 0; i < n; i++) {
+      for (int j = 0; j < m; j++) {
         System.out.printf("%-5d", trans[i][j]);
       }
       System.out.println();
@@ -47,14 +47,10 @@ public class Upper_Triangular_Matrix {
     m = sc.nextInt();
     System.out.print("Enter column limit of Matrix A: ");
     n = sc.nextInt();
-    if ((m == n)) {
       int[][] matA=new int[m][n];
-      int[][] trans=new int[m][n];
+      int[][] trans=new int[n][m];
       inputMat(m, n, matA);
-      upperTri(m, n, matA, trans);
+      transpose(m, n, matA, trans);
       displayMat(m, n, matA, trans);
-    } else {
-      System.out.print("Diagonal is not possible.");
-    }
   }
 }

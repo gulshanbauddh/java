@@ -2,40 +2,19 @@ package Nsti_Code;
 
 import java.util.Scanner;
 
-public class Binary_Search {
-  // Binary Sorting
-  public static void binarySearch(int searchKey, int[] arr){
-    int start=0, end=arr.length, mid=0;
-    boolean flag=false;
-    System.out.printf("\nSearch key is: %d\n",searchKey);
-    while (start<=end){
-      mid=(end+start)/2;
-      if (searchKey>arr[mid]){
-        start=mid+1;
-      } else if (searchKey<arr[mid]){
-        end=mid-1;
-      } else {
-        flag=true;
-        break;
-      }
-    }
-    System.out.println(flag?"Element found at index: "+mid:"Element not found.");
-  }
-  // Main method
+public class P_09_Bubble_Sort {
   public static void main(String[] args) {
-    int limit, temp = 0, searchKey;
+    int limit, temp = 0;
     Scanner sc = new Scanner(System.in);
     System.out.print("Enter limit of array: ");
     limit = sc.nextInt();
     int[] arr = new int[limit];
     System.out.println("Enter Array Elements:");
     for (int i = 0; i < limit; i++) {
-      System.out.printf("arr[%d]=",i);
+      System.out.printf("arr[%d]=",i+1);
       arr[i] = sc.nextInt();
     }
-    System.out.print("Enter Search key: ");
-    searchKey=sc.nextInt();
-    System.out.print("\nDisplay array before sorting elements:\n[");
+    System.out.print("\n\nDisplay array before sorting elements:\n[");
     for (int i = 0; i < limit; i++) {
       System.out.print(arr[i] + " ");
     }
@@ -53,8 +32,6 @@ public class Binary_Search {
     for (int i = 0; i < limit; i++) {
       System.out.print(arr[i] + " ");
     }
-    System.out.println("]");
-    //
-    binarySearch(searchKey, arr);
+    System.out.print("]");
   }
 }

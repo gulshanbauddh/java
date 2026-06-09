@@ -2,7 +2,7 @@ package Nsti_Code;
 
 import java.util.Scanner;
 
-public class Root_of_Quadratic_Equation {
+public class P_02_Root_of_Quadratic_Equation {
   public static void main(String[] args){
     float a, b, c;
     double d,root1, root2;
