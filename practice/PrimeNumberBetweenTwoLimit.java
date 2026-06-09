@@ -1,4 +1,4 @@
-package Nsti_Code;
+package practice;
 
 import java.util.Scanner;
 
