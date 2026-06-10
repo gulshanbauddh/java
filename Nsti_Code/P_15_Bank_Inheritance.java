@@ -58,7 +58,7 @@ public class P_15_Bank_Inheritance {
     savings.displayBalance();
 
     System.out.println("\n----- Current Account -----");
-    CurrentAccount current = new CurrentAccount();
+    BankAccount current = new CurrentAccount();
 
     System.out.print("Enter deposit amount for Current Account: Rs.");
     double currentDeposit = sc.nextDouble();
