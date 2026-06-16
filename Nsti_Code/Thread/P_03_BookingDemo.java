@@ -13,7 +13,7 @@ class TicketBooking {
   }
 }
 
-public class BookingDemo {
+public class P_03_BookingDemo {
   public static void main(String[] args) {
     TicketBooking obj = new TicketBooking();
 

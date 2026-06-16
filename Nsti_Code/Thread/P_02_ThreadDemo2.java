@@ -8,7 +8,7 @@ class MyRunnable implements Runnable {
   }
 }
 
-public class ThreadDemo2 {
+public class P_02_ThreadDemo2 {
   public static void main(String[] args) {
     MyRunnable obj = new MyRunnable();
     Thread t = new Thread(obj);
