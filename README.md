@@ -1,4 +1,4 @@
-# ☕ Core Java Practice Laboratory
+# ☕ Core Java Practice Laboratory From Sandeep
 
 Welcome to my Java development repository! This project serves as a dedicated space for mastering **Core Java fundamentals**, object-oriented programming (OOP) principles, and basic algorithmic problem-solving. 
 
